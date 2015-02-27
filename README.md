@@ -16,5 +16,10 @@ You can check out any point of the tutorial using
 To see the changes which between any two lessons use the git diff command.
     git diff step-x..step-x
 
+### step-0: Project initialization
+
+- Add a simple index.html file
+- Add the app.js file with a plan map.
+
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect
