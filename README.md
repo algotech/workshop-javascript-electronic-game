@@ -26,5 +26,11 @@ To see the changes which between any two lessons use the git diff command.
 - Add the vector class to represent coordinate pairs
 - Add the grid class to represent the map
 
+### step-2: A critter’s programming interface
+
+- Add the Config object to store possible directions
+- Add the Helper object with the randomElement function
+- Add the BouncingCritter class (our first element of the game)
+
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect
