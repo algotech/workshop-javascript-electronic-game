@@ -41,6 +41,15 @@ To see the changes which between any two lessons use the git diff command.
   - charFromElement (returns the original character from an element)
 - Try the World object in the app.js file (check the console)
 
+### step-4: Animating the World
+
+- Add the forEach method on the Grip class
+- Add 3 methods on the World class:
+  - turn (gives the critters a chance to act)
+  - letAct (contains the actual logic that allows the critters to move)
+  - checkDestination (validates the destination point)
+- Add the View class
+- Animate the world from the app.js file
 
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect

@@ -16,3 +16,14 @@ Grid.prototype.get = function(vector) {
 Grid.prototype.set = function(vector, value) {
   this.space[vector.x + this.width * vector.y] = value;
 };
+
+Grid.prototype.forEach = function(f, context) {
+  for (var y = 0; y < this.height; y++) {
+    for (var x = 0; x < this.width; x++) {
+      var value = this.space[x + y * this.width];
+
+      if (value != null)
+        f.call(context, value, new Vector(x, y));
+    }
+  }
+};
