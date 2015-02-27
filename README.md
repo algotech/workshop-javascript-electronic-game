@@ -32,5 +32,15 @@ To see the changes which between any two lessons use the git diff command.
 - Add the Helper object with the randomElement function
 - Add the BouncingCritter class (our first element of the game)
 
+### step-3: The World object
+
+- Add an empty Wall class
+- Add the World class that communicates (and creates) with the Grid
+- Add two helper methods:
+  - elementFromChar (creates an element from a character)
+  - charFromElement (returns the original character from an element)
+- Try the World object in the app.js file (check the console)
+
+
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect
