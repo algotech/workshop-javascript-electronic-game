@@ -43,11 +43,14 @@ World.prototype.turn = function() {
 World.prototype.letAct = function(critter, vector) {
   var action = critter.act(new View(this, vector));
 
-  if (action && action.type == "move") {
-    var dest = this.checkDestination(action, vector);
-    if (dest && this.grid.get(dest) == null) {
+  var handled = action
+    && action.type in ActionsHandler
+    && ActionsHandler[action.type].call(this, critter, vector, action);
+
+  if (!handled) {
+    critter.energy -= 0.2;
+    if (critter.energy <= 0) {
       this.grid.set(vector, null);
-      this.grid.set(dest, critter);
     }
   }
 };

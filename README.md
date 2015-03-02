@@ -57,5 +57,11 @@ To see the changes which between any two lessons use the git diff command.
 - Add the StraightCritter class
 - Add our new critters in the map
 
+### step-6: A more lifelike simulation
+
+- Add the ActionsHandler class with methods for: grow, move, eat, reproduce
+- Change the World class in order to use the ActionsHandler. It also manage the energy level
+
+
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect
