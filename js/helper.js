@@ -22,3 +22,10 @@ Helper.charFromElement = function(element) {
 
   return element.originChar;
 }
+
+Helper.dirPlus = function(dir, n) {
+  var index = Config.directionNames.indexOf(dir);
+  var directions = Config.directionNames.length;
+
+  return Config.directionNames[(index + n + directions) % directions];
+}

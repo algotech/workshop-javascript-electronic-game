@@ -1,21 +1,22 @@
 var plan = [
   "############################",
-  "#      #    #      o      ##",
+  "#      #s   #      o      ##",
   "#                          #",
   "#          #####           #",
-  "##         #   #    ##     #",
+  "##         #s  #    ##  s  #",
   "###           ##     #     #",
   "#           ###      #     #",
   "#   ####                   #",
   "#   ##       o             #",
   "# o  #         o       ### #",
-  "#    #                     #",
+  "#    #                  s  #",
   "############################"
 ];
 
 var legend = {
   "#": Wall,
-  'o': BouncingCritter
+  'o': BouncingCritter,
+  's': StraightCritter
 };
 
 var world = new World(plan, legend);

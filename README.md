@@ -51,5 +51,11 @@ To see the changes which between any two lessons use the git diff command.
 - Add the View class
 - Animate the world from the app.js file
 
+### step-5: More Life Forms
+
+- Add the dirPlus helper
+- Add the StraightCritter class
+- Add our new critters in the map
+
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect
