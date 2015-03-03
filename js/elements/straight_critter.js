@@ -1,5 +1,6 @@
 function StraightCritter() {
   this.direction = Helper.randomElement(Config.directionNames);
+  this.energy = 20;
 };
 
 StraightCritter.prototype.changeDirection = function() {

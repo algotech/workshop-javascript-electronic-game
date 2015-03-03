@@ -62,6 +62,12 @@ To see the changes which between any two lessons use the git diff command.
 - Add the ActionsHandler class with methods for: grow, move, eat, reproduce
 - Change the World class in order to use the ActionsHandler. It also manage the energy level
 
+### step-7: Populating the new world
+
+- Add the energy property on the Wall and StraightCritter objects
+- Learn the BouncingCritter to reproduce, eat and move
+- Add the Plant element
+- Update the map
 
 [git-home]: http://git-scm.com
 [git-github]: http://help.github.com/set-up-git-redirect
